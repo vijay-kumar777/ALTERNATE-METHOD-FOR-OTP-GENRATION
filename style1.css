@@ -1,0 +1,43 @@
+/* Reset some default styling */
+body, h4, p {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f0f0f0;
+}
+
+.container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    flex-direction: column;
+}
+
+.reader-container {
+    background-color: white;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.2);
+}
+
+#reader {
+    width: 300px;
+    height: 300px;
+    margin: 10px auto;
+}
+
+#show {
+    display: none;
+    text-align: center;
+    margin-top: 20px;
+}
+
+#result {
+    color: blue;
+    font-size: 18px;
+}
+

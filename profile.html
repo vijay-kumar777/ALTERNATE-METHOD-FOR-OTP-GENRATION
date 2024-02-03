@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>HOME PAGE</title>
+<link rel="stylesheet" href="style3.css">
+</head>
+<body>
+<div class="hero">
+<nav>
+<img src="" class="logo">
+<ul>
+<li><a href="#">Home</a></li>
+<li><a href="#">Features</a></li>
+<li><a href="#">About</a></li>
+
+
+</ul>
+<img src="images/flo.jpg" class="user-pic" onclick="toggleMenu()">
+<li><a href="#">LOGIN/SIGNUP</a></li>
+<div class="sub-menu-wrap" id="subMenu">
+<div class="sub-menu">
+<div class="user-info">
+<img src="images\flo.jpg">
+
+<h3></h3>
+</div>
+<hr>
+<a href="acc.html" class="sub-menu-link">
+    <img src="images/profile.png">
+    <p>Edit Profile</p> 
+    <span>></span>
+    </a>
+    <a href="#" class="sub-menu-link">
+    <img src="images/setting.png">
+    <p>Settings & Privacy</p>
+    <span>></span>
+    </a>
+    <a href="#" class="sub-menu-link">
+    <img src="images/help.png">
+    <p>Help & Support</p>
+    <span>></span>
+    </a>
+    <a href="#" class="sub-menu-link">
+    <img src="images/logout.png">
+    <p>Logout</p>
+    <span>></span>
+    </a>
+</div>
+</nav>
+</div>
+<script>
+    let subMenu = document.getElementById("subMenu");
+    function toggleMenu(){
+    subMenu.classList.toggle("open-menu");
+    }
+    </script>
+</body>
+</html>
